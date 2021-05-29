@@ -3,27 +3,27 @@ import RepositoryItem from './RepositoryItem';
 
 export default function RepositoryList(props) {
     var repositoryElements = [];
-    var title="";
+    var title = "";
     if (props.name !== undefined) {
-        title = `Repositories(${props.name.length})`;
+        title = `Repositories(${props.number})`;
+
         for (let i = 0; i < props.name.length; i++) {
             repositoryElements.push(
-                <li key={props.name[i]}>
+                <div className="container-main-list-item">
                     <RepositoryItem name={props.name[i]}
                         url={props.url[i]}
                         description={props.description[i]}>
                     </RepositoryItem>
-                </li>
+                </div>
             );
-        
+
         }
     }
     return (
-        <div>
-        <p className="title">{title}</p>
-        <ul>
-            {repositoryElements}
-        </ul>
-        </div>
+        <>
+            <h1 className="container-main-title">{title}</h1>
+            <div className="container-main-list "> {repositoryElements}
+            </div>
+        </>
     )
 }
