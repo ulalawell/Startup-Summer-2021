@@ -1,0 +1,30 @@
+.container-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #0064EB;
+    padding: 1vh 1.6vw;
+}
+
+.container-input-item {
+    margin-left: 1.6vw;
+}
+
+.container-input-picture{
+    margin-left: 1.6vw;
+}
+
+.container-input-item-inner input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #ffffff;
+    background-image: url('/src/images/magnifier.png');
+    background-position: 19px 50%;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    height: 40px;
+    width: 36vw;
+    min-width: 140px;
+    padding-left: 44px;
+}

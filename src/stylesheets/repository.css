@@ -1,0 +1,39 @@
+.container-main-repository {
+    width: 64vw;
+    min-width: 320px;
+    height: 100%;
+}
+.container-main-repository-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.container-main-repository-list {
+    justify-content: flex-start;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    width: 64vw;
+}
+.container-main-repository-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 0 2vw;
+    height: 14vh;
+    margin-bottom: 2vh;
+}
+.container-main-repository-list-item a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+}
+.container-main-list-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}

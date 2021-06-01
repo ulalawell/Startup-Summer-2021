@@ -1,0 +1,54 @@
+.container-main-user {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+    height: 56vh;
+    min-width: 292px;
+    justify-content: space-around;
+}
+.container-main-user-picture {
+    /* align-self: center; */
+}
+.container-main-user-picture img {
+    border-radius: 140px;
+    width: 280px;
+    height: 280px;
+}
+.container-main-user-initials {
+    display: flex;
+    flex-direction: column;
+}
+.container-main-user-info {
+    display: flex;
+}
+.container-main-user-initials-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    margin-bottom: 12px;
+}
+.container-main-user-initials-login {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}
+.container-main-user-info-followers {
+    display: flex;
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+.container-main-user-info-following {
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
