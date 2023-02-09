@@ -1,4 +1,4 @@
-# test task for Startup-Summer-2021
+# Test task for Startup-Summer-2021
 Requirements for the task: 
 
 https://www.figma.com/file/nPPYeW9okkBbIfxafG8XJP/Startup-Summer-2022-Task?node-id=0%3A1&t=USub4sN5W1OQJhrf-0
